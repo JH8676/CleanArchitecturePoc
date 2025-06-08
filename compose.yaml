@@ -1,0 +1,7 @@
+﻿services:
+  cleanarchitecturepoc.api:
+    image: cleanarchitecturepoc.api
+    build:
+      context: .
+      dockerfile: src/CleanArchitecturePoc.API/Dockerfile
+
